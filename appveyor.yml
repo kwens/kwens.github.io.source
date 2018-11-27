@@ -5,8 +5,9 @@ environment:
 install:
 - node --version
 - npm --version
+- npm install -g hexo-cli
 - npm install
-- npm install hexo-cli -g
+- ls -a
 build_script:
 - hexo generate
 artifacts:
