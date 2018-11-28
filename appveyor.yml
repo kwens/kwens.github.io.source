@@ -8,10 +8,6 @@ install:
 - npm install
 - npm install -g hexo-cli
 - git submodule update --init
-- cd themes
-- ls -a
-- cd next
-- ls -a
 - hexo -v
 build_script:
 - hexo generate
