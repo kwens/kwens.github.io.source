@@ -7,6 +7,7 @@ install:
 - npm --version
 - npm install -g hexo-cli
 - npm install
+- git submodule update --init
 - cd themes
 - ls -a
 - cd next
