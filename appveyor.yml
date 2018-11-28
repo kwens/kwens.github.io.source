@@ -1,4 +1,4 @@
-clone_depth: 5
+clone_depth: 10
 environment:
     access_token:
         secure: mO2h8Xi+B0Ad5bq/LUNi9Np5uKRvo0X+aYRQ3HN8uFaR4ZbUvCDyyJVXUv8hw7VW
@@ -7,6 +7,9 @@ install:
 - npm --version
 - npm install -g hexo-cli
 - npm install
+- cd themes
+- ls -a
+- cd next
 - ls -a
 - hexo -v
 build_script:
