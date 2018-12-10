@@ -23,6 +23,8 @@ tags:
 + 提交打包后的文件：hexo d
 + 访问yourname.github.io即可看到。
 
+<!-- more -->
+
 ### 二，使用主题：https://hexo.io/zh-cn/docs/themes
 
 + 可以在themes目录下新建你的主题：一个主题可能包括如下结构
@@ -45,7 +47,7 @@ tags:
 
 + 添加域名解析，例如：
 
-  {% asset_img ali_host.png 阿里域名设置 %}
+  {% asset_img ali_conf.png 阿里域名设置 %}
 
 + 在博客源码source目录下新建CNAME文件，并写入你的域名
 + 重新打包并推送到你的github博客项目。
