@@ -18,7 +18,7 @@ tags:
     - 下载安装：hexo-deploy-git: npm i hexo-deploy-git --save
     - 修改配置文件：_config.yml
 
-![](../images/git_config.png)
+{% asset_img git_config.png 配置github地址 %}
 
 + 提交打包后的文件：hexo d
 + 访问yourname.github.io即可看到。
@@ -45,7 +45,7 @@ tags:
 
 + 添加域名解析，例如：
 
-  ![](../images/ali_host.png)
+  {% asset_img ali_host.png 阿里域名设置 %}
 
 + 在博客源码source目录下新建CNAME文件，并写入你的域名
 + 重新打包并推送到你的github博客项目。
