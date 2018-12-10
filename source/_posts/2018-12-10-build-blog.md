@@ -45,7 +45,7 @@ tags:
 
 + 添加域名解析，例如：
 
-  {% asset_img ali_host.png 阿里域名设置 %}
+  ![阿里域名设置](./2018-12-10-build-blog/ali_host.png)
 
 + 在博客源码source目录下新建CNAME文件，并写入你的域名
 + 重新打包并推送到你的github博客项目。
