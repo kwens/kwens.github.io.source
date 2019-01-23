@@ -75,3 +75,5 @@ https://api.twitter.com/oauth/authenticate?oauth_token=<上一步获取的值>
 {% asset_img signature.png %}
 
 6. 将签名放入请求头的参数字典。
+
+![avatar](https://phinf.pstatic.net/contact/20190108_71/1546937254419EXRI3_JPEG/image.JPEG)
